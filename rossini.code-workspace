@@ -1,0 +1,34 @@
+{
+	"folders": [
+		{
+			"name": "rossini",
+			"path": "."
+		},
+		{
+			"name": "understrap",
+			"path": "/Users/timo/Local Sites/rossini-gioielli/app/public/wp-content/themes/understrap"
+		},
+		{
+			"name": "woocommerce",
+			"path": "/Users/timo/Local Sites/rossini-gioielli/app/public/wp-content/plugins/woocommerce"
+		},
+		{
+			"name": "rossini-sage",
+			"path": "/Users/timo/Local Sites/rossinilocal/app/public/wp-content/themes/rossini-sage"
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"composer.json": true,
+			"gulpconfig.json": true,
+			"gulpfile.js": true,
+			"node_modules/": true,
+			"package-lock.json": true,
+			"package.json": true,
+			"README.md": true,
+			"screenshot.png": true,
+			"style.css": true,
+			"yarn.lock": true
+		}
+	}
+}

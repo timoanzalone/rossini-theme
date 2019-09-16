@@ -1,0 +1,106 @@
+@import 'https://use.typekit.net/xzu4tjo.css';
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Butler-light";
+}
+
+.butler {
+  font-family: 'Butler-light', sans-serif;
+  font-display: auto;
+}
+
+body {
+  font-family: sofia-pro, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.intro-text {
+  font-weight: 300;
+  font-size: 1.25rem;
+  line-height: 1.6875rem;
+}
+
+.bespoke-slogan {
+  font-family: 'butler-light', serif;
+  color: #000;
+  text-align: center;
+}
+
+.bespoke-quote {
+  font-family: "Butler-Light", serif;
+  font-size: 36px;
+  color: #000;
+  line-height: 50px;
+}
+
+.handwritten-script {
+  font-family: "Butler-Light", serif;
+  font-size: 30px;
+  color: #000;
+  line-height: 27px;
+}
+
+.bespoke-section-title {
+  font-family: "Butler-Light", serif;
+  font-size: 30px;
+  color: #000;
+  margin-bottom: 15px;
+}
+
+.bespoke-text {
+  font-size: 16px;
+  color: #000;
+  line-height: 27px;
+  font-weight: 100;
+}
+
+.bespoke-quote-author {
+  font-family: "SigmundFreudTypeface2", serif;
+  font-size: 18px;
+  color: #000;
+  line-height: 50px;
+}
+
+.email-link {
+  font-size: 20px;
+  color: #000;
+  text-align: center;
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: underline;
+}
+
+.woocommerce-Address a {
+  margin-bottom: 16px;
+}
+
+a.button {
+  color: #007bff!important;
+}
+
+label[for=card-element]
+{
+  font-weight: 500;
+}
+
+.email-link:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+.bespoke-title {
+  font-family: "Butler-Light", serif;
+  font-size: 36px;
+  color: #000;
+  text-transform: capitalize;
+}
+
+.text-decoration-none {
+  text-decoration: none;
+}

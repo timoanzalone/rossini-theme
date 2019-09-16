@@ -1,0 +1,21 @@
+.wrapper {
+  padding-top: 7.5rem;
+  min-height: calc(100vh - 404px);
+}
+
+div.wrapper#wrapper-footer-full {
+  padding-top: 32px !important;
+  min-height: inherit;
+  background-color: white;
+}
+
+.smooth-Accordion .smooth-Accordion-header {
+  background: white;
+  font-weight: 500;
+}
+
+.smooth-Accordion {
+  border-radius: 0;
+  box-shadow: none;
+  overflow: hidden;
+}

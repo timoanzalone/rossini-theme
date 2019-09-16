@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: 'Butler-light';
+  src: url('../fonts/Butler-Light.woff');
+}
+
+@font-face {
+  font-family: 'Butler-regular';
+  src: url('../fonts/Butler-regular.woff');
+}
