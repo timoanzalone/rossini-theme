@@ -19,13 +19,13 @@ get_header();
 $container = 'container-fluid';
 
 ?>
-
+<?php get_template_part( 'global-templates/hero', 'front' ); ?>
 <div class="wrapper pt-0" id="page-wrapper">
-  <?php get_template_part( 'global-templates/hero', 'front' ); ?>
+  
 	<div class="<?php echo esc_attr( $container ); ?> p-0" id="content" tabindex="-1">
 
 			<main class="site-main" id="main">
-
+				
 					<?php get_template_part( 'loop-templates/content', 'front' ); ?>
 
 			</main><!-- #main -->

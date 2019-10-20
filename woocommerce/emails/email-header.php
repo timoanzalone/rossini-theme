@@ -41,7 +41,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 				<!-- Header -->
 				<table border="0" cellpadding="0" cellspacing="0" width="600" id="template_header">
 					<tr>
-						<td id="header_wrapper" style="text-align: center; border-top: 3px solid #F7CAC9;">
+						<td id="header_wrapper" style="text-align: center; border-top: 3px solid #1d1d1f;">
 							<svg style="padding-bottom: 32px;" width="83" height="16" viewBox="0 0 83 16" fill="none"
 								xmlns="http://www.w3.org/2000/svg">
 								<path

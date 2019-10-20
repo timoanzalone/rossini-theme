@@ -79,18 +79,18 @@ td.product-thumbnail img {
 }
 
 .woocommerce-info::before {
-  color: #F7CAC9;
+  color: #1d1d1f;
 }
 
 .woocommerce-message::before {
-  color: #F7CAC9;
+  color: #1d1d1f;
 }
 .woocommerce-remove-coupon {
   text-decoration: underline;
 }
 
 .woocommerce-message, .woocommerce-error, .woocommerce-info {
-  border-top: 3px solid #F7CAC9;
+  border-top: 3px solid #1d1d1f;
   border-bottom: 0px solid;
   background-color: white;
 }
@@ -102,11 +102,11 @@ td.product-thumbnail img {
   width: 1em;
   text-align: center;
   line-height: .8;
-  color: black !important;
+  color: #fff !important;
   text-decoration: none;
   font-weight: 300;
   border: 0;
-  background-color: #F7CAC9;
+  background-color: #1d1d1f;
 }
 
 .cat-parent {
@@ -143,8 +143,12 @@ h3#order_review_heading {
 }
 
 .woocommerce a.remove:hover {
-  background-color: #F7CAC9;
-  color: black !important;
+  background-color: #1d1d1f;
+  color: #fff !important;
+}
+
+a.showcoupon {
+  margin-left: 4px;
 }
 
 .woocommerce #content table.cart td.actions .input-text, .woocommerce table.cart td.actions .input-text, .woocommerce-page #content table.cart td.actions .input-text, .woocommerce-page table.cart td.actions .input-text {
@@ -264,7 +268,8 @@ span.sku_wrapper {
 }
 
 .woocommerce div.product div.images .woocommerce-product-gallery__trigger {
-  background: #F7CAC9;
+  background: #f7f7f7;
+  color: #fff;
 }
 
 span.price {
@@ -318,7 +323,7 @@ section.related.products ul{
 }
 
 .woocommerce form.register {
-  border: 1px solid #F7CAC9;
+  border: 1px solid #1d1d1f;
   padding: 20px;
   margin: 2em 0;
   text-align: left;
@@ -384,12 +389,12 @@ span.single-product-tags {
 
 .products .product .product-details {
   position: absolute;
-  background: rgba($color:#fff,$alpha: 0.8);
+  background: rgba($color:#1d1d1f,$alpha: 0.5);
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  color: #212529;
+  color: #fff;
   padding-top: 2rem;
   margin-left: 15px;
   margin-right: 15px;
@@ -401,12 +406,6 @@ span.single-product-tags {
   -ms-transition: all ease 0.4s;
   -o-transition: all ease 0.4s;
   transition: all ease 0.4s;
-  border: 1px solid #f7cac9;
-  border-radius: 2px ;
-  -webkit-border-radius: 2px ;
-  -moz-border-radius: 2px ;
-  -ms-border-radius: 2px ;
-  -o-border-radius: 2px ;
 }
 
 /* Show the that was setup above when the user hovers*/
@@ -514,9 +513,9 @@ opacity: 0.9;
 }
 
 .button.wc-forward {
-  color: #212529 !important;
-  background-color: #f7cac9 !important;
-  border-color: #f7cac9 !important;
+  color: #fff !important;
+  background-color: #1d1d1f !important;
+  border-color: #1d1d1f !important;
   font-weight: 400 !important;
   float: none !important;
 }

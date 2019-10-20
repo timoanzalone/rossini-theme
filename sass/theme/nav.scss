@@ -1,9 +1,9 @@
 .wcml-dropdown{width:15.5em;max-width:100%;position:relative}.wcml-dropdown>ul{position:relative;padding:0;margin:0 !important;list-style-type:none}.wcml-dropdown li{list-style-type:none;padding:0;margin:0;border:1px solid #cdcdcd;background-color:#fff}.wcml-dropdown li:hover,.wcml-dropdown li:focus{background-color:#f5f5f5}.wcml-dropdown li:hover.wcml-cs-active-currency .wcml-cs-submenu,.wcml-dropdown li:focus.wcml-cs-active-currency .wcml-cs-submenu{visibility:visible}.wcml-dropdown a{display:block;text-decoration:none;padding:.5em .5em .4em;line-height:1;box-shadow:none !important;cursor:pointer}.wcml-dropdown a:hover{box-shadow:none !important;text-decoration:none}.wcml-dropdown a.wcml-cs-item-toggle{position:relative;padding-right:calc(10px + .7em + .7em)}.rtl .wcml-dropdown a.wcml-cs-item-toggle{padding-right:10px;padding-left:calc(10px + .7em + .7em)}.wcml-dropdown a.wcml-cs-item-toggle:after{content:'';vertical-align:middle;display:inline-block;border:.35em solid transparent;border-top:.5em solid;position:absolute;right:10px;top:calc(50% - .175em)}.rtl .wcml-dropdown a.wcml-cs-item-toggle:after{right:auto;left:10px}.wcml-dropdown .wcml-cs-submenu{visibility:hidden;position:absolute;top:100%;right:0;left:0;border-top:1px solid #cdcdcd;padding:0;margin:0 !important;list-style-type:none;z-index:101}.wcml-dropdown .wcml-cs-submenu li{padding:0;margin:0;border:solid #cdcdcd;border-width:0 1px 1px 1px}.woocommerce .wcml-dropdown.product{margin:1em 0;overflow:visible}.widget .wcml-dropdown ul li{padding:0}.widget .wcml-dropdown ul li a{box-shadow:none}.widget .wcml-dropdown ul li a:hover{box-shadow:none;text-decoration:none}.wcml-spinner{position:absolute;right:-20px;top:50%;transform:translateY(-50%)}.rtl .wcml-spinner{right:auto;left:-20px}
 
 .navbar {
-  padding: 0;
-  min-height: 60px;
-  height: 60px;
+  border-top: 5px solid black;
+  padding-top: 1rem;
+  height: 100px;
 }
 
 .navbar-light .navbar-toggler {
@@ -191,7 +191,7 @@ ul.right-menu li {
 }
 
 .wpml-ls-legacy-dropdown a:hover, .wpml-ls-legacy-dropdown a:focus, .wpml-ls-legacy-dropdown .wpml-ls-current-language:hover>a {
-  color: #000;
+  color: #1d1d1f;
   background: #f7f7f7;
 }
 
@@ -256,11 +256,11 @@ a.btn {
 }
 
 .sidenav {
-  height: calc(100vh - 60px);
+  height: calc(100vh - 90px);
   /*100%Full-height*/width: 0;
   /*0width-changethiswithJavaScript*/position: fixed;
   /*Stayinplace*/z-index: 1;
-  /*Stayontop*/top: 60px !important;
+  /*Stayontop*/top: 90px !important;
   /*Stayatthetop*/left: 0;
   background-color: white;
   overflow-x: hidden;
@@ -313,10 +313,10 @@ ul#Mobile\ menu {
   right: 15px;
   font-size: 20px;
   font-weight: 300;
-  background-color: #f7cac9;
+  background-color: #1d1d1f;
   text-align: center;
   border-radius:50%;
-  color: #212529;
+  color: #fff;
   -webkit-border-radius:50%;
   -moz-border-radius:50%;
   -ms-border-radius:50%;
@@ -330,36 +330,33 @@ ul#Mobile\ menu {
   .sidenav a {font-size: 18px;}
 }
 
-.cart-contents:before {
-  content: ' ';
+.cart-contents {
+  content: '';
   display: inline-block;
   background-image: url('../img/bag.svg');
-  background-size: 14px 16px;
-  width: 14px;
-  height: 16px;
-  vertical-align: baseline;
+  background-size: 24px 24px;
+  width: 24px;
+  height: 24px;
+  position: relative;
 }
+
 .cart-contents:hover {
   text-decoration: none;
 }
 .cart-contents-count {
-  color: #212529;
-  display: inline-block;
-  box-sizing: border-box;
-  border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
-  width: 20px;
-  height: 20px;
-  padding: 2px;
-  background-color: #f7cac9;
-  vertical-align: top;
-  text-align: center;
-  line-height: 1;
-  top: -1px;
-  position: relative;
+  color: #1d1d1f;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-right: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  font-size: 12px;
+  font-weight: 500;
+  padding-top: 3px;
 }
 
 .search-overlay {

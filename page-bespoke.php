@@ -21,7 +21,7 @@ $container = 'container-fluid';
 ?>
 
 <div class="wrapper pt-0 pb-5 mb-5" id="page-wrapper">
-	<div class="<?php echo esc_attr( $container ); ?> p-0" style="background: #F3EEE7;" id="content" tabindex="-1">
+	<div class="<?php echo esc_attr( $container ); ?> p-0" id="content" tabindex="-1">
 
 			<main class="site-main" id="main">
 
